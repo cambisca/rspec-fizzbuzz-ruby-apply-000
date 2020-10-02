@@ -1,13 +1,13 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 def fizzbuzz(i)
-  if i % 3 == 0 
+  if int % 3 == 0 
     puts "Fizz"
-  elsif i % 5 == 0
+  elsif int % 5 == 0
     puts "Buzz"
-  elsif i % 3 == 0 || i % 5 == 0 
+  elsif int % 3 == 0 || int % 5 == 0 
     puts "FizzBuzz"
-  else puts "int"
+  else puts int
   end
 end
 
