@@ -7,6 +7,7 @@ def fizzbuzz(i)
     puts "Buzz"
   elsif i % 3 == 0 || i % 5 == 0 
     puts "FizzBuzz"
+  else puts "int"
   end
 end
 
